@@ -16,4 +16,7 @@ Therefore, in conclusion, the simulation is correct for the Moore Elevator Contr
 
 
 Mealy Elevator Controller
-The Mealy simulation is kindly of similar to the Moore Simulation. 
+
+The Mealy simulation is kindly of similar to the Moore Simulation. Only that it shows one more variable, which is the 'nextfloor'. 
+
+Given that the Moore simulation is correct, the next floor output should be correct.This is because it really show the the next output for each time the elevator stops at a storey. This is verify further by the state diagrams , given in the CE3 handout and the code generated in the Mealy test bench.vhd and shell code for the Mealy Machine.
